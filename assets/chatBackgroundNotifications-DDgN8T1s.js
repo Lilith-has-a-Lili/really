@@ -1,0 +1,1 @@
+import{i as e,n as t}from"./storage-CO_P6eOB.js";var n=`chat_background_notifications_enabled`,r=`chat-background-notifications-changed`;function i(){return t(n)!==`false`}function a(t){e(n,t?`true`:`false`),typeof window<`u`&&window.dispatchEvent(new CustomEvent(r,{detail:{enabled:t}}))}export{a as n,i as t};
