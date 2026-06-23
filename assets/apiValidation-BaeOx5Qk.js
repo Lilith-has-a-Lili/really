@@ -1,1 +1,0 @@
-var e=e=>!!e?.baseUrl?.trim()&&!!e?.apiKey?.trim()&&!!e?.model?.trim();export{e as t};
