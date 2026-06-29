@@ -6,11 +6,11 @@
   <meta name="viewport"
     content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, viewport-fit=cover, interactive-widget=resizes-content" />
   <title>Csy-OS</title>
- 
+
   <!-- PWA Settings -->
-  <link rel="manifest" href="./assets/manifest-DnVa6RbN.json" />
-  <meta name="theme-color" content="#fdf6f0" media="(prefers-color-scheme: light)" />
-  <meta name="theme-color" content="#fdf6f0" media="(prefers-color-scheme: dark)" />
+  <link rel="manifest" href="./assets/manifest-CCKaBAct.json" />
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: dark)" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -51,7 +51,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      background: linear-gradient(160deg, #fdf6f0 0%, #fce8e6 30%, #f5e6f0 60%, #eee8f5 100%);
+      background: #ffffff;
       font-family: 'Quicksand', -apple-system, sans-serif;
       transition: opacity 0.5s ease, transform 0.5s ease;
     }
@@ -68,7 +68,7 @@
       border-radius: 30px;
       -o-object-fit: cover;
          object-fit: cover;
-      filter: drop-shadow(0 8px 24px rgba(244, 143, 177, 0.35));
+      filter: none;
       animation: launch-icon-enter 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) forwards,
                  launch-float 3s ease-in-out 0.8s infinite;
       opacity: 0;
@@ -81,7 +81,7 @@
       width: 200px;
       height: 200px;
       border-radius: 50%;
-      background: radial-gradient(circle, rgba(248, 187, 208, 0.5) 0%, rgba(206, 147, 216, 0.2) 40%, transparent 70%);
+      background: transparent;
       animation: launch-glow-breathe 3s ease-in-out infinite alternate;
       pointer-events: none;
     }
@@ -92,7 +92,7 @@
       font-size: 16px;
       font-weight: 600;
       letter-spacing: 0.15em;
-      color: rgba(120, 100, 120, 0.7);
+      color: rgba(104, 96, 102, 0.58);
       opacity: 0;
       animation: launch-fade-up 0.6s ease-out 0.4s forwards;
     }
@@ -109,7 +109,7 @@
       width: 8px;
       height: 8px;
       border-radius: 50%;
-      background: rgba(244, 143, 177, 0.7);
+      background: rgba(160, 151, 156, 0.32);
     }
     .launch-dot:nth-child(1) { animation: launch-dot-bounce 1.2s ease-in-out 0.7s infinite; }
     .launch-dot:nth-child(2) { animation: launch-dot-bounce 1.2s ease-in-out 0.85s infinite; }
@@ -137,25 +137,28 @@
       40%           { transform: translateY(-12px); opacity: 1; }
     }
   </style>
-  <script type="module" crossorigin src="./assets/index-BTN2SaJA.js"></script>
+  <script type="module" crossorigin src="./assets/index-54aE5Faw.js"></script>
   <link rel="modulepreload" crossorigin href="./assets/rolldown-runtime-CMxvf4Kt.js">
   <link rel="modulepreload" crossorigin href="./assets/vendor-pdf-D2vT3ju6.js">
   <link rel="modulepreload" crossorigin href="./assets/dist-BcvA-GRa.js">
   <link rel="modulepreload" crossorigin href="./assets/definitions-BdWVgBTV.js">
   <link rel="modulepreload" crossorigin href="./assets/haptics-DpcZkU6l.js">
+  <link rel="modulepreload" crossorigin href="./assets/jszip.min-Uer3KtZc.js">
   <link rel="modulepreload" crossorigin href="./assets/jsx-runtime-DDrWIXeu.js">
   <link rel="modulepreload" crossorigin href="./assets/react-ICqv4BO6.js">
-  <link rel="modulepreload" crossorigin href="./assets/types-BzM9yekO.js">
+  <link rel="modulepreload" crossorigin href="./assets/types-Rw1M-JDf.js">
   <link rel="modulepreload" crossorigin href="./assets/storage-CO_P6eOB.js">
-  <link rel="modulepreload" crossorigin href="./assets/apiRequestLedger-DL3b2P52.js">
+  <link rel="modulepreload" crossorigin href="./assets/apiRequestLedger-BEEqyHvo.js">
   <link rel="modulepreload" crossorigin href="./assets/backendConfig-zNmUg0b0.js">
-  <link rel="modulepreload" crossorigin href="./assets/characterStore-Cx7tr5oe.js">
-  <link rel="modulepreload" crossorigin href="./assets/runtimeConfig-CPwrmQ-v.js">
+  <link rel="modulepreload" crossorigin href="./assets/characterStore-CJvh_glx.js">
+  <link rel="modulepreload" crossorigin href="./assets/runtimeConfig-Cpg5BI35.js">
   <link rel="modulepreload" crossorigin href="./assets/vectorMemorySyncState-9VIEqyfY.js">
-  <link rel="modulepreload" crossorigin href="./assets/backendClient-Cg7EJ9Mw.js">
-  <link rel="modulepreload" crossorigin href="./assets/jszip.min-Uer3KtZc.js">
-  <link rel="modulepreload" crossorigin href="./assets/db-v1PbssJG.js">
-  <link rel="stylesheet" crossorigin href="./assets/index-CCgJBJ_U.css">
+  <link rel="modulepreload" crossorigin href="./assets/backendClient-DTvvVs4h.js">
+  <link rel="modulepreload" crossorigin href="./assets/db-BFw8Xjn6.js">
+  <link rel="modulepreload" crossorigin href="./assets/calendarContext-BMcklzO4.js">
+  <link rel="modulepreload" crossorigin href="./assets/safeApi-DeEWbwD2.js">
+  <link rel="modulepreload" crossorigin href="./assets/realtimeContext-8uUnOeZs.js">
+  <link rel="stylesheet" crossorigin href="./assets/index-fqZg8qA-.css">
 </head>
 
 <body>
