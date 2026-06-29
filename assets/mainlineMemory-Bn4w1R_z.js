@@ -1,0 +1,1 @@
+function e(e){let t=e.metadata?.source;return typeof t==`string`?t:``}function t(e){return e.metadata?.isDateContextBridge===!0}function n(n){return e(n)===`theater`&&!t(n)}function r(e){return!n(e)}export{r as n,t};
