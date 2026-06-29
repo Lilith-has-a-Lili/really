@@ -1,0 +1,20 @@
+.song-open-confirm-backdrop { z-index: 9999; background: rgba(0, 0, 0, 0.55); justify-content: center; align-items: center; animation: 0.2s ease 0s 1 normal none running song-confirm-fade-in; display: flex; position: fixed; inset: 0px; }
+@keyframes song-confirm-fade-in { 
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.song-open-confirm-card { text-align: center; background: rgba(38, 38, 40, 0.92); border-radius: 20px; flex-direction: column; align-items: center; width: min(280px, -48px + 100vw); padding: 28px 24px 20px; animation: 0.35s cubic-bezier(0.32, 0.72, 0, 1) 0s 1 normal none running song-confirm-slide-up; display: flex; box-shadow: rgba(0, 0, 0, 0.4) 0px 24px 48px, rgba(255, 255, 255, 0.1) 0px 0px 0px 0.5px; }
+@keyframes song-confirm-slide-up { 
+  0% { opacity: 0; transform: translateY(40px) scale(0.95); }
+  100% { opacity: 1; transform: translateY(0px) scale(1); }
+}
+.song-open-confirm-cover { border-radius: 14px; width: 120px; height: 120px; margin-bottom: 18px; overflow: hidden; box-shadow: rgba(0, 0, 0, 0.35) 0px 8px 24px; }
+.song-open-confirm-cover img { object-fit: cover; width: 100%; height: 100%; display: block; }
+.song-open-confirm-cover-fallback { color: rgba(255, 255, 255, 0.8); background: linear-gradient(135deg, rgb(236, 65, 65), rgb(192, 48, 48)); justify-content: center; align-items: center; width: 100%; height: 100%; font-size: 36px; display: flex; }
+.song-open-confirm-title { color: rgb(255, 255, 255); text-overflow: ellipsis; white-space: nowrap; max-width: 100%; margin-bottom: 4px; font-size: 18px; font-weight: 700; line-height: 1.3; overflow: hidden; }
+.song-open-confirm-artist { color: rgba(255, 255, 255, 0.5); text-overflow: ellipsis; white-space: nowrap; max-width: 100%; margin-bottom: 24px; font-size: 13px; overflow: hidden; }
+.song-open-confirm-actions { flex-direction: column; gap: 10px; width: 100%; display: flex; }
+.song-open-confirm-btn { cursor: pointer; border: none; border-radius: 12px; justify-content: center; align-items: center; gap: 6px; width: 100%; height: 44px; font-size: 15px; font-weight: 600; transition: transform 0.12s, opacity 0.12s; display: flex; }
+.song-open-confirm-btn:active { transform: scale(0.96); }
+.song-open-confirm-btn--primary { color: rgb(255, 255, 255); background: rgb(236, 65, 65); box-shadow: rgba(236, 65, 65, 0.35) 0px 4px 16px; }
+.song-open-confirm-btn--secondary { color: rgba(255, 255, 255, 0.7); background: rgba(255, 255, 255, 0.08); }
